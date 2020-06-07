@@ -28,7 +28,7 @@ Type=simple
 ExecStart=/home/pi/jupyter_start.sh
 User=pi
 Group=pi
-WorkingDirectory=/home/pi/notebooks
+WorkingDirectory=/home/pi
 Restart=always
 RestartSec=10
 

@@ -15,7 +15,7 @@ fi
 #-----------------------------------------------
 
 # make necessary preparations
-./prep.sh
+# ./prep.sh
 
 # install Python packages 
 sudo -u pi ./inst_stack.sh
@@ -29,7 +29,7 @@ sudo -u pi ./conf_jupyter.sh
 #-----------------------------------------------
 
 # install TeX
-./inst_tex.sh
+# ./inst_tex.sh
 
 # install support for Pi hardware
 sudo -u pi ./inst_pi_hardware.sh
@@ -55,4 +55,4 @@ sudo -u pi ./inst_pi_hardware.sh
 # sudo -u pi ./inst_sqlite.sh
 
 # install opencv
-# ./inst_opencv.sh
+./inst_opencv.sh
